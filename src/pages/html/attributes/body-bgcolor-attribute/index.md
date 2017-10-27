@@ -3,13 +3,31 @@ title: Body Bgcolor Attribute
 ---
 ## Body Bgcolor Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/body-bgcolor-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The `bgcolor` attribute defines the background color of your main HTML element, the `<body>`. Without it, the default color used by any browser is white.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+For instance:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+```html
+<html>
+  <head>
+    <title>freeCodeCamp Example - bgcolor</title>
+  </head>
+  <body bgcolor="red">
+    <h1>
+      This is an example.
+    </h1>
+  </body>
+</html>
+```
+
+For it's value, you can use color names(red,blue,yellow), hex numbers (#ffffff, #000000) or rgb numbers (rgb(255,0,0)).
+
+##### Be careful!
+
+  The bgcolor attribute is not supported in HTML5!
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+[W3Schools Article](https://www.w3schools.com/tags/att_body_bgcolor.asp)
 
 
